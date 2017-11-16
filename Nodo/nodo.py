@@ -1,7 +1,5 @@
 import sys
-import socket
 from mpi4py import MPI
-
 
 def main():
     print("Calcular"+sys.argv[1]+"^"+sys.argv[2]+" mod "+sys.argv[3]+", con "+sys.argv[4]+" nodos corruptos")
