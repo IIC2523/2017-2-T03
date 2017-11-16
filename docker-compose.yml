@@ -1,8 +1,0 @@
-version: '2'
-services:
-  node01:
-    build: ./Nodo
-  node02:
-    build: ./Nodo
-  cliente:
-    build: ./Cliente
