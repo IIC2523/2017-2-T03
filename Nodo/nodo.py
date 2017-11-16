@@ -10,6 +10,7 @@ def main():
         comm.send(data, dest=1, tag=11)
     elif rank == 1:
         data = comm.recv(source=0, tag=11)
+        print(str(rank)+": resultados obtenidos = "+str(data))
 
 if __name__ == "__main__":
     main()
